@@ -4,6 +4,13 @@ const closeImagePopout = () => {
     const imagePopout = document.querySelector('.image-popout a.close');
     if (imagePopout) {
         imagePopout.click();
+        return;
+    }
+
+    const journalPopout = document.querySelector('.journal-sheet a.close');
+    if (journalPopout) {
+        journalPopout.click();
+        return;
     }
 };
 
