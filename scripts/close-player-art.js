@@ -17,7 +17,7 @@ const closeImagePopout = () => {
 Hooks.on('ready', () => {
     if (game.user.isGM === true) {
         document.addEventListener('keypress', e => {
-            if (e.key = '`') {
+            if (e.key == '`'&& e.target.tagName.toUpperCase() != 'INPUT' && e.target.tagName.toUpperCase() != 'TEXTAREA') {
                 closeImagePopout();
                 game.socket.emit(socketName);
             }
