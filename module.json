@@ -2,7 +2,13 @@
     "name": "close-player-art",
     "title": "Close Player Art",
     "description": "Adds the hot key ` (backtick) for the GM to close open image popouts on player screens",
-    "author": "GS",
+    "authors": [
+      {
+        "name": "Glen Simon",
+        "email": "glen.a.simon@gmail.com",
+        "url": "https://github.com/gsimon2"
+      }
+    ],
     "version": "1.0.2",
     "minimumCoreVersion": "0.7.0",
     "compatibleCoreVersion": "0.7.9",
