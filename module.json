@@ -13,7 +13,14 @@
     "minimumCoreVersion": "0.7.0",
     "compatibleCoreVersion": "0.7.9",
     "socket": "true",
-    "scripts": ["scripts/close-player-art.js"],
+    "esmodules": ["scripts/main.js"],
+    "languages": [
+      {
+          "lang": "en",
+          "name": "English",
+          "path": "lang/en.json"
+      }
+    ],
     "url": "https://github.com/gsimon2/close-player-art",
     "bugs": "https://github.com/gsimon2/close-player-art/issues",
     "changelog": "https://github.com/gsimon2/close-player-art/releases",
