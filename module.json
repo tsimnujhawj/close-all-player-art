@@ -1,7 +1,7 @@
 {
     "name": "close-player-art",
     "title": "Close Player Art",
-    "description": "Adds the hot key ` (backtick) for the GM to close open image popouts on player screens",
+    "description": "Adds a configurable hot key (Default ` - backtick) for the GM to close open image popouts on player screens",
     "authors": [
       {
         "name": "Glen Simon",
@@ -9,15 +9,22 @@
         "url": "https://github.com/gsimon2"
       }
     ],
-    "version": "1.0.2",
+    "version": "1.1.0",
     "minimumCoreVersion": "0.7.0",
     "compatibleCoreVersion": "0.7.9",
     "socket": "true",
-    "scripts": ["scripts/close-player-art.js"],
+    "esmodules": ["scripts/main.js"],
+    "languages": [
+      {
+          "lang": "en",
+          "name": "English",
+          "path": "lang/en.json"
+      }
+    ],
     "url": "https://github.com/gsimon2/close-player-art",
     "bugs": "https://github.com/gsimon2/close-player-art/issues",
     "changelog": "https://github.com/gsimon2/close-player-art/releases",
-    "download": "https://github.com/gsimon2/close-player-art/releases/download/1.0.2/module.zip",
-    "manifest": "https://github.com/gsimon2/close-player-art/releases//download/1.0.2/module.json",
+    "download": "https://github.com/gsimon2/close-player-art/releases/download/1.1.0/module.zip",
+    "manifest": "https://github.com/gsimon2/close-player-art/releases//download/1.1.0/module.json",
     "readme": "https://raw.githubusercontent.com/gsimon2/close-player-art/main/README.md"
   }
