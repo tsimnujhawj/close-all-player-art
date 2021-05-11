@@ -1,4 +1,4 @@
-import constants from '../constants.js';
+import constants from '../Constants.js';
 import {registerSettings} from './settings.js';
 
 const socketName = `module.${constants.modName}`;
