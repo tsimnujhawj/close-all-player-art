@@ -7,14 +7,14 @@ const closeImagePopout = () => {
     const imagePopout = document.querySelectorAll('.image-popout a.close');
     if (imagePopout) {
         imagePopout.forEach((image)=> { image.click(); });
-        return;
     }
 
     const journalPopout = document.querySelectorAll('.journal-sheet a.close');
     if (journalPopout) {
         journalPopout.forEach((journal)=> { journal.click(); });
-        return;
     }
+
+    return;
 };
 
 Hooks.on('init', () => {
