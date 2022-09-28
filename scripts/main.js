@@ -4,15 +4,15 @@ import {registerSettings} from './settings.js';
 const socketName = `module.${constants.modName}`;
 
 const closeImagePopout = () => {
-    const imagePopout = document.querySelector('.image-popout a.close');
+    const imagePopout = document.querySelectorAll('.image-popout a.close');
     if (imagePopout) {
-        imagePopout.click();
+        imagePopout.forEach((image)=> { image.click(); });
         return;
     }
 
-    const journalPopout = document.querySelector('.journal-sheet a.close');
+    const journalPopout = document.querySelectorAll('.journal-sheet a.close');
     if (journalPopout) {
-        journalPopout.click();
+        journalPopout.forEach((journal)=> { journal.click(); });
         return;
     }
 };

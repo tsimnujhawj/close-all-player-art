@@ -1,17 +1,22 @@
 {
-    "name": "close-player-art",
-    "title": "Close Player Art",
-    "description": "Adds a configurable hot key (Default ` - backtick) for the GM to close open image popouts on player screens",
+    "name": "close-all-player-art",
+    "title": "Close All Player Art",
+    "description": "Adds a configurable hot key (Default ` - backtick) for the GM to close/open all image popouts on player screens",
     "authors": [
       {
         "name": "Glen Simon",
         "email": "glen.a.simon@gmail.com",
         "url": "https://github.com/gsimon2"
+      },
+      {
+        "name": "Tsimnuj Hawj",
+        "email": "tsimnuj.hawj@gmail.com",
+        "url": "https://github.com/tsimnujhawj"
       }
     ],
     "version": "1.1.1",
     "minimumCoreVersion": "0.7.0",
-    "compatibleCoreVersion": "0.7.9",
+    "compatibleCoreVersion": "10.285",
     "socket": "true",
     "esmodules": ["scripts/main.js"],
     "languages": [
@@ -21,10 +26,10 @@
           "path": "lang/en.json"
       }
     ],
-    "url": "https://github.com/gsimon2/close-player-art",
-    "bugs": "https://github.com/gsimon2/close-player-art/issues",
-    "changelog": "https://github.com/gsimon2/close-player-art/releases",
-    "download": "https://github.com/gsimon2/close-player-art/releases/download/1.1.1/module.zip",
-    "manifest": "https://github.com/gsimon2/close-player-art/releases//download/1.1.1/module.json",
-    "readme": "https://raw.githubusercontent.com/gsimon2/close-player-art/main/README.md"
+    "url": "https://github.com/tsimnujhawj/close-all-player-art",
+    "bugs": "https://github.com/tsimnujhawj/close-all-player-art/issues",
+    "changelog": "https://github.com/tsimnujhawj/close-all-player-art/releases",
+    "download": "https://github.com/tsimnujhawj/close-all-player-art/releases/download/1.1.1/module.zip",
+    "manifest": "https://github.com/tsimnujhawj/close-all-player-art/releases//download/1.1.1/module.json",
+    "readme": "https://raw.githubusercontent.com/tsimnujhawj/close-all-player-art/main/README.md"
   }
